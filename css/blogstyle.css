@@ -94,6 +94,10 @@ header p{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+.latest h4{
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+}
 .latest a{
     font-family: 'Poppins';
     font-style: normal;
@@ -101,6 +105,9 @@ header p{
     font-size: 16px;
     line-height: 106.5%;
     color: #F58A07;
+}
+.latest p{
+    margin-bottom: 10px;
 }
 .latest1 {
     border-radius: 20px;
