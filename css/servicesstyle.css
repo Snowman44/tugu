@@ -32,7 +32,7 @@
     font-size: 16px;
     line-height: 106.5%;
     color: #F58A07;   
-    padding: 18px 30px 17px 29px;
+    padding: 12px 24px 12px 24px;
     background: rgba(245, 138, 7, 0.1);
     border-radius: 31px; 
 }
@@ -178,9 +178,6 @@ header a{
     display: flex;
     flex-direction: column;
 }
-.videoleft h2{
-    padding-top: 40px;
-}
 .videoleft p{
     padding-top: 20px;
 }
@@ -215,8 +212,8 @@ header a{
     display: flex;
     flex-direction: column;
 }
-.videoleft h2{
-    padding-top: 40px;
+.videoleft h3{
+    padding-top: 50px;
 }
 .videoleft p{
     padding-top: 20px;
@@ -286,6 +283,10 @@ header a{
     padding-left: 20%;
     padding-right: 20%;
     background: #DCEAF5;
+}
+.latestsection h2{
+    font-size: 48px;
+    color: #0D1317;    
 }
 .latest{
     display: flex;
@@ -370,7 +371,7 @@ footer h2{
     margin-bottom: 20px;
 }
 footer h5{
-    font-weight: 600;
+    font-weight: 600; 
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
@@ -390,6 +391,11 @@ footer h6{
 .footerleft{
     width: 30%;
 }
+.subscribe{
+    display: flex;
+    flex-direction: columnf;
+    justify-content: space-between;
+}
 .email{
     font-weight: 500;
     font-size: 16px;
@@ -397,7 +403,8 @@ footer h6{
     color: #9C9C9C;
     background: #FFFFFF;
     border-radius: 31px;
-    padding: 18px 188px 17px 32px;
+    padding: 12px 188px 12px 24px;
+    margin-bottom: 5px;
 }
 .subs{
     font-weight: 500;
@@ -407,7 +414,7 @@ footer h6{
     color: #FFFFFF;
     background: #F58A07;
     border-radius: 31px;
-    padding: 17px 32px 18px 32px;
+    padding: 12px 24px 12px 24px;
 }
 .footerbottom{
     display: flex;

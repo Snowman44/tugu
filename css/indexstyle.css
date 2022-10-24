@@ -32,7 +32,7 @@
     font-size: 16px;
     line-height: 106.5%;
     color: #F58A07;   
-    padding: 18px 30px 17px 29px;
+    padding: 12px 24px 12px 24px;
     background: rgba(245, 138, 7, 0.1);
     border-radius: 31px; 
 }
@@ -96,6 +96,8 @@ header p{
 }
 .helpsection h2{
     width: 60%;
+    font-size: 48px;
+    color: #0D1317;    
 }
 .helpsection p{
     padding-top: 25px;
@@ -183,6 +185,8 @@ header p{
 }
 .abouttext h2{
     padding-bottom: 30px;
+    font-size: 48px;
+    color: #0D1317;    
 }
 .abouttext p{
     padding-bottom: 48px;
@@ -238,6 +242,10 @@ header p{
     margin-bottom: 120px;
     background: #EDF7FF;
     border-radius: 20px;
+}
+.servicesection h2{
+    font-size: 48px;
+    color: #0D1317;    
 }
 .servicetab{
     padding-top: 50px;
@@ -349,8 +357,10 @@ header p{
     display: flex;
     flex-direction: column;
 }
-.videoleft h2{
-    padding-top: 40px;
+.videoleft h3{
+    padding-top: 50px;
+    font-size: 48px;
+    letter-spacing: -3%;
 }
 .videoleft p{
     padding-top: 20px;
@@ -420,6 +430,10 @@ header p{
     padding-left: 20%;
     padding-right: 20%;
     background: #DCEAF5;
+}
+.latestsection h2{
+    font-size: 48px;
+    color: #0D1317;    
 }
 .latest{
     display: flex;

@@ -87,8 +87,8 @@ header p{
     padding-left: 20%;
     padding-right: 20%;
 }
-.latestsection h2{
-    margin-bottom: 20px;
+.latestsection h3{
+    margin-bottom: 30px;
 }
 .latest{
     display: flex;
