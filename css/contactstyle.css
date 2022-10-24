@@ -44,7 +44,7 @@ header{
     justify-content: space-between;
 }
 header h2{
-    color: #1D3444;
+    font-size: 48px;
 }
 .headerleft{
     width: 50%;
@@ -69,8 +69,6 @@ header h2{
     justify-content: space-between;
 }
 .entry div div div{
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px; 
@@ -81,11 +79,9 @@ header h2{
     padding-bottom: 16px;
     width: 500px;
     border-radius: 27px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .big{
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px; 
@@ -97,11 +93,9 @@ header h2{
     width: 500px;
     height: 150px;
     border-radius: 27px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .entry a{
-    font-family: 'Poppins';
-    font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 106.5%;
@@ -124,6 +118,16 @@ footer{
     padding-top: 80px;
     height: 463px;
     position: relative;
+}
+.footerlogo{
+    width: 122px;
+    height: 28px;
+    margin-bottom: 20px;
+}
+.social{
+    display: flex;
+    justify-content: space-between  ;
+    width: 150px;
 }
 .orangeside1{
     width: 50px;
@@ -151,8 +155,9 @@ footer h2{
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    letter-spacing: -0.03em;
+    letter-spacing: -3%;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 footer h5{
     font-weight: 600;

@@ -124,9 +124,12 @@ header p{
 .featuressection{
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-top: 120px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    margin-top: 100px;
+    background: #EDF7FF;
 }
 .featuressection h3{
     font-weight: 600;
@@ -144,16 +147,29 @@ header p{
     display: flex;
     justify-content: space-between;
     padding-top: 60px;
-    margin-right: 15px;
+}
+.feature1{
+    padding: 60px 24px 37px 41px;
+    background-color: white;
+    border-radius: 20px;
+}
+.feature2{
+    margin-left: 40px;
+    padding: 60px 24px 37px 41px;
+    background-color: white;
+    border-radius: 20px;
+}
+.feature3{
+    margin-left: 40px;
+    padding: 60px 24px 37px 41px;
+    background-color: white;
+    border-radius: 20px;
 }
 .features img{
     padding-bottom: 30px;
 }
 .features h4{
     padding-bottom: 16px;
-}
-.feature2{
-    padding-left: 20px;
 }
 .aboutsection{
     display: flex;
@@ -450,6 +466,12 @@ footer{
 .footerlogo{
     width: 122px;
     height: 28px;
+    margin-bottom: 20px;
+}
+.social{
+    display: flex;
+    justify-content: space-between  ;
+    width: 150px;
 }
 .orangeside1{
     width: 50px;
@@ -477,11 +499,12 @@ footer h2{
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    letter-spacing: -0.03em;
+    letter-spacing: -3%;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 footer h5{
-    font-weight: 600;
+    font-weight: 600; 
     font-size: 18px;
     line-height: 27px;
     color: #FFFFFF;
@@ -501,6 +524,11 @@ footer h6{
 .footerleft{
     width: 30%;
 }
+.subscribe{
+    display: flex;
+    flex-direction: columnf;
+    justify-content: space-between;
+}
 .email{
     font-weight: 500;
     font-size: 16px;
@@ -508,7 +536,8 @@ footer h6{
     color: #9C9C9C;
     background: #FFFFFF;
     border-radius: 31px;
-    padding: 18px 188px 17px 32px;
+    padding: 12px 188px 12px 24px;
+    margin-bottom: 5px;
 }
 .subs{
     font-weight: 500;
@@ -518,7 +547,7 @@ footer h6{
     color: #FFFFFF;
     background: #F58A07;
     border-radius: 31px;
-    padding: 17px 32px 18px 32px;
+    padding: 12px 24px 12px 24px;
 }
 .footerbottom{
     display: flex;
